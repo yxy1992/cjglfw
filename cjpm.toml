@@ -1,0 +1,19 @@
+[dependencies]
+
+[package]
+  cjc-version = "0.56.3"
+  compile-option = ""
+  description = "nothing here"
+  link-option = "-lgdi32 -lopengl32 -lglfw3"
+  name = "cjglfw"
+  output-type = "static"
+  override-compile-option = ""
+  src-dir = ""
+  target-dir = ""
+  version = "1.0.0"
+  [package.package-configuration]
+
+[ffi]
+  [ffi.c]
+    [ffi.c.glfw3]
+      path = "./lib"
